@@ -11,7 +11,7 @@ struct NotaAluno
 
 int main(){
     setlocale(LC_ALL,"Portuguese_Brazil");
-    arquivo = fopen("C:\\Users\\matheus.juca\\Desktop\\C\\NotaAluno.txt","w+");
+    arquivo = fopen("C:\\Users\\matheus.juca\\Documents\\C\\NotaAluno.txt","w+");
     struct NotaAluno aluno[4];
     for (i = 1; i < 5; i++)
     {
@@ -26,6 +26,7 @@ int main(){
         scanf("%f", &aluno[i].nota3);
         printf("Nota 4: \n");
         scanf("%f", &aluno[i].nota4);
+        
     
         fprintf(arquivo,"\n(Aluno %d)\n",i);
         fprintf(arquivo,"Nome : %s\n",aluno[i].nome);

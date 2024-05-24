@@ -13,25 +13,25 @@ struct CadastroProduto
 
 int main(){
     setlocale(LC_ALL,"Portuguese_Brazil");
-    arquivo = fopen("C:\\Users\\matheus.juca\\Desktop\\C\\CadastroProduto.txt","w+");
+    arquivo = fopen("C:\\Users\\matheus.juca\\Documents\\C\\CadastroProduto.txt","w+");
     struct CadastroProduto produto[5];
     for (i = 1; i < 3; i++)
     {
         printf("\n(Produto %d)\n",i);
         printf("Nome: \n");
         scanf("%s", &produto[i].nome);
-        printf("Código: \n");
+        printf("Cï¿½digo: \n");
         scanf("%ld", &produto[i].codigo);
         printf("Quantidade: \n");
         scanf("%d", &produto[i].quantidade);
-        printf("Valor Unitário: \n");
+        printf("Valor Unitï¿½rio: \n");
         scanf("%f", &produto[i].ValorUnit);
     
         fprintf(arquivo,"\n(Produto %d)\n",i);
         fprintf(arquivo,"Nome : %s\n",produto[i].nome);
-        fprintf(arquivo,"Código : %ld\n",produto[i].codigo);
+        fprintf(arquivo,"Cï¿½digo : %ld\n",produto[i].codigo);
         fprintf(arquivo,"Quantidade : %d\n",produto[i].quantidade);
-        fprintf(arquivo,"Valor Unitário : %.2f\n",produto[i].ValorUnit);
+        fprintf(arquivo,"Valor Unitï¿½rio : %.2f\n",produto[i].ValorUnit);
     }
     fclose(arquivo);
     return 0;
