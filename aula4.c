@@ -25,7 +25,7 @@ int main(){
             fprintf(arquivo,"Nota %d: %.2f\n",j,aluno[i].nota);
             aluno[i].media = aluno[i].media + aluno[i].nota;
         }   
-        fprintf(arquivo,"Média: %f\n",aluno[i].media/4);
+        fprintf(arquivo,"Média: %.2f\n",aluno[i].media/4);
     }
     fclose(arquivo);
     return 0;
