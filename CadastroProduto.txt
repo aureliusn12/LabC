@@ -1,0 +1,32 @@
+
+(Aluno 1)
+Nome : A
+Nota 1: 5,000000
+Nota 2: 5,000000
+Nota 3 : 7,000000
+Nota 4 : 7,000000
+Média: 6,000000
+
+(Aluno 2)
+Nome : b
+Nota 1: 1,000000
+Nota 2: 4,000000
+Nota 3 : 2,000000
+Nota 4 : 3,000000
+Média: 2,500000
+
+(Aluno 3)
+Nome : c
+Nota 1: 10,000000
+Nota 2: 10,000000
+Nota 3 : 10,000000
+Nota 4 : 10,000000
+Média: 10,000000
+
+(Aluno 4)
+Nome : d
+Nota 1: 6,000000
+Nota 2: 4,000000
+Nota 3 : 5,000000
+Nota 4 : 5,000000
+Média: 5,000000
