@@ -11,7 +11,7 @@ struct NotaAluno
 
 int main(){
     setlocale(LC_ALL,"Portuguese_Brazil");
-    arquivo = fopen("C:\\Users\\matheus.juca\\Documents\\C\\NotaAluno.txt","w+");
+    arquivo = fopen("../","w+");
     struct NotaAluno aluno[4];
     for (i = 1; i < 5; i++)
     {
